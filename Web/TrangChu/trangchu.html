@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trangchu.css">
+    <script src="trangchu.js" defer></script>
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
+</head>
+
+<body>
+    <!-- Social links -->
+    <aside class="_social-links">
+        <ul class="_links-list">
+            <li class="_social-link"><a href="https://twitter.com" target="_blank"><i
+                        class="fab fa-twitter"></i></a></li>
+            <li class="_social-link"><a href="https://facebook.com" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li class="_social-link"><a href="https://www.reddit.com" target="_blank"><i
+                        class="fab fa-reddit"></i></a></li>
+        </ul>
+    </aside>
+    <!-- ------------ -->
+
+    <!-- Navbar -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">TechEdu</a></div>
+            <input type="checkbox" id="menu-btn">
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            <ul class="nav-links">
+                <label for="menu-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+
+                <ul>
+                    <li><a href="/TrangChu/trangchu.html">Trang Chủ</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="/ĐienDan/diendan.html">Diễn đàn</a></li>
+                </ul>
+
+
+                <li> <a href="#" class="desktop-item">Lịch Học</a>
+                    <label for="showDrop" class="mobile-item">Lịch Học</label>
+                    <input type="checkbox" id="showDrop">
+                    <ul class="drop-menu">
+                        <li><a href="#">Trong Tuần Này</a></li>
+                        <li><a href="#">Trong Tháng Này</a></li>
+                        <li><a href="#">Lịch Đã Hết Hạn</a></li>
+                        <li><a href="#">Xem Tất Cả</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-item">Các Khóa Học</a>
+                    <label for="showMega" class="mobile-item">Các Khóa Học</label>
+                    <input type="checkbox" id="showMega">
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="https://i.pinimg.com/originals/44/9d/40/449d40dfe417974d48f0519bc7e088f2.jpg"
+                                    alt="">
+                            </div>
+                            <div class="row">
+                                <header><a href="#">Ngôn Ngữ</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">C/C++</a></li>
+                                    <li><a href="#">Python</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    <li><a href="#">C#</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/LapTrinhWeb/webprograming.html">Lập trình Web</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">Javascrip</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/LapTrinhMobile/mobile.html">Lập trình Mobile</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Android (Java/Kotlin)</a></li>
+                                    <li><a href="#">iOS (Swift/Objective-C)</a></li>
+                                    <li><a href="#">Flutte/React Native</a></li>
+                                    <li><a href="#">UX/UI</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/TriTueNhanTao/trituenhantao.html">Trí tuệ nhân tạo</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Học máy và Học sâu</a></li>
+                                    <li><a href="#">Xử lý ngôn ngữ tự nhiên</a></li>
+                                    <li><a href="#">Thị giác máy tính</a></li>
+                                    <li><a href="#">Robotics</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/KhoaHocDuLieu/khoahocdulieu.html">Khoa học dữ liệu</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Ngôn ngữ R</a></li>
+                                    <li><a href="#">SQL,MySQL</a></li>
+                                    <li><a href="#">Khai phá dữ liệu</a></li>
+                                    <li><a href="#">Trực quan hóa dữ liệu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <ul>
+                    <li><a href="/DanhGia/danhgia.html">Đánh giá năng lực</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/CongCuHoTRo/congcuhotro.html">Công cụ hỗ trợ</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/LoginSignup/index.html">Đăng nhập</a></li>
+                </ul>
+                <li><a href="#" class="search-gg"</a><i class="fas fa-search"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------ -->
+    <main>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item">
+                    <img src="/TrangChu/images/4413024.jpg">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="/TrangChu/images/a.jpg">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="/TrangChu/images/dfb.jpg">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h1 style="margin-top: 130px;"></h1>
+            <main style="margin-left: 50px;margin-right: 50px">
+                <p style="color: black; font-size:40px;">Cùng nhau học để trở thành <a
+                        href="https://vi.wikipedia.org/wiki/Nh%C3%A2n_l%E1%BB%B1c_c%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_Vi%E1%BB%87t_Nam"
+                        style="color:#da3636;text-decoration: underline;font-weight: bold;"> <br> NHÂN SỰ IT</a>
+                    <br> chất lượng cao cho Việt Nam và Thế giới.
+                </p>
+                <h4 style="font-size: 100px;">Dev. Easy. Done!!!</h4>
+                <div id="guest">
+                    <p style="text-align: center; font-style: italic">Vấn đề bạn đang gặp phải</p>
+                    <p
+                        style="text-align: center; font-weight: bold; text-decoration: underline; color:rgb(228, 87, 87);">
+                        KHI HỌC LẬP TRÌNH</p><br>
+
+                    <div class="text-main" ;>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <br>
+                            <p>
+                                <li>Mới bắt đầu học lập trình nhưng không biết phải học thế nào, học ra sao cho hiệu
+                                    quả?</li>
+                            </p>
+                        </div>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <p>
+                                <li>Sinh viên IT đã từng học lập trình nhưng vẫn chưa có được nền tảng kỹ thuật lập
+                                    trình vững chắc và tư duy giải quyết bài toán?</li>
+                            </p>
+                        </div>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <p>
+                                <li>Sinh viên các ngành học khác muốn theo ngành IT và muốn trở thành một lập trình viên
+                                    trong tương lai? </li>
+                            </p>
+                        </div>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <p>
+                                <li>Gặp khó khăn khi tự học do không có người định hướng, hướng dẫn và kèm cặp dẫn đến
+                                    chán nản và dễ bỏ cuộc?</li>
+
+                            </p>
+                        </div>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <p>
+                                <li>Điều kiện của bạn không cho phép để có thể học lập trình trực tiếp tại các trung tâm
+                                    ở các thành phố lớn?</li>
+
+                            </p>
+                        </div>
+                        <div class="bold-text" ; style="margin-left: 50px">
+                            <p>
+                                <li>Nếu bạn thuộc một trong nhóm đó, vậy TechEdu là sự lựa chọn hoàn hảo cho bạn!</li>
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="index.html#section1">
+                        <p style="font-size: large;">CÁC KHÓA HỌC CỦA CHÚNG TÔI</p>
+                    </a>
+                    <p>This feature is in development, please wait!!!</p>
+                </div>
+                <br>
+
+            </main>
+        </div>
+
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contdgr">
+            <div class="rokw">
+                <div class="footer-col">
+                    <h4>TechEdu</h4>
+                    <ul>
+                        <li><a href="#">"Công nghệ thông tin là sự tiến bộ của mọi ngành nghề, mọi loại hình kinh doanh
+                                và mọi khía cạnh của
+                                cuộc sống." - Bill Gates.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Lịch học</h4>
+                    <ul>
+                        <li><a href="#">Trong tuần này</a></li>
+                        <li><a href="#">Trong tháng này</a></li>
+                        <li><a href="#">Lịch đã hết hạn</a></li>
+                        <li><a href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Các khóa học</h4>
+                    <ul>
+                        <li><a href="#">Ngôn ngữ</a></li>
+                        <li><a href="#">Lập trình Web</a></li>
+                        <li><a href="#">Lập trình Mobile</a></li>
+                        <li><a href="#">Trí tuệ nhân tạo</a></li>
+                        <li><a href="#">Khoa học dữ liệu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-map col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3725.23040774392!2d105.7706984!3d20.9833992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313453178cb9f0a9%3A0x9fafbe89642c9a27!2zVuG6oW4gUGjDumMgQnVpbGRpbmc!5e0!3m2!1svi!2s!4v1703352343184!5m2!1svi!2s"
+                        height="300" width="300" style="border:10px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="\javascripts\main.js"></script>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 TechEdu | Thiết kế bởi MacDuc</p>
+    </div>
+
+    <!-- chatbot -->
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="ai ai-ChatBubble">
+                <path
+                    d="M14 19c3.771 0 5.657 0 6.828-1.172C22 16.657 22 14.771 22 11c0-3.771 0-5.657-1.172-6.828C19.657 3 17.771 3 14 3h-4C6.229 3 4.343 3 3.172 4.172 2 5.343 2 7.229 2 11c0 3.771 0 5.657 1.172 6.828.653.654 1.528.943 2.828 1.07" />
+                <path
+                    d="M14 19c-1.236 0-2.598.5-3.841 1.145-1.998 1.037-2.997 1.556-3.489 1.225-.492-.33-.399-1.355-.212-3.404L6.5 17.5" />
+            </svg></span>
+        <span class="material-symbols-outlined"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="ai ai-CircleX">
+                <path d="M15 15L9 9m6 0l-6 6" />
+                <circle cx="12" cy="12" r="10" />
+            </svg></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <Span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1);">
+                        <path
+                            d="M21 10.975V8a2 2 0 0 0-2-2h-6V4.688c.305-.274.5-.668.5-1.11a1.5 1.5 0 0 0-3 0c0 .442.195.836.5 1.11V6H5a2 2 0 0 0-2 2v2.998l-.072.005A.999.999 0 0 0 2 12v2a1 1 0 0 0 1 1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a1 1 0 0 0 1-1v-1.938a1.004 1.004 0 0 0-.072-.455c-.202-.488-.635-.605-.928-.632zM7 12c0-1.104.672-2 1.5-2s1.5.896 1.5 2-.672 2-1.5 2S7 13.104 7 12zm8.998 6c-1.001-.003-7.997 0-7.998 0v-2s7.001-.002 8.002 0l-.004 2zm-.498-4c-.828 0-1.5-.896-1.5-2s.672-2 1.5-2 1.5.896 1.5 2-.672 2-1.5 2z">
+                        </path>
+                    </svg></Span>
+                <p>Xin Chào! 👋<br>Tôi có thể giúp gì cho bạn?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Nhắn tại đây..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><svg xmlns="http://www.w3.org/2000/svg" width="36"
+                    height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="ai ai-Send">
+                    <path
+                        d="M9.912 12H4L2.023 4.135A.662.662 0 0 1 2 3.995c-.022-.721.772-1.221 1.46-.891L22 12 3.46 20.896c-.68.327-1.464-.159-1.46-.867a.66.66 0 0 1 .033-.186L3.5 15" />
+                </svg></span>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="mobile.js" defer></script>
+    <title>Mobile Programming</title>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
+</head>
+
+<body>
+    <!-- Social links -->
+    <aside class="_social-links">
+        <ul class="_links-list">
+            <li class="_social-link"><a href="https://twitter.com" target="_blank"><i
+                        class="fab fa-twitter"></i></a></li>
+            <li class="_social-link"><a href="https://facebook.com" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li class="_social-link"><a href="https://www.reddit.com" target="_blank"><i
+                        class="fab fa-reddit"></i></a></li>
+        </ul>
+    </aside>
+    <!-- ------------ -->
+
+    <!-- Navbar -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">TechEdu</a></div>
+            <input type="checkbox" id="menu-btn">
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            <ul class="nav-links">
+                <label for="menu-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+
+                <ul>
+                    <li><a href="/TrangChu/trangchu.html">Trang Chủ</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="/ĐienDan/diendan.html">Diễn đàn</a></li>
+                </ul>
+
+
+                <li> <a href="#" class="desktop-item">Lịch Học</a>
+                    <label for="showDrop" class="mobile-item">Lịch Học</label>
+                    <input type="checkbox" id="showDrop">
+                    <ul class="drop-menu">
+                        <li><a href="#">Trong Tuần Này</a></li>
+                        <li><a href="#">Trong Tháng Này</a></li>
+                        <li><a href="#">Lịch Đã Hết Hạn</a></li>
+                        <li><a href="#">Xem Tất Cả</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-item">Các Khóa Học</a>
+                    <label for="showMega" class="mobile-item">Các Khóa Học</label>
+                    <input type="checkbox" id="showMega">
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="https://i.pinimg.com/originals/44/9d/40/449d40dfe417974d48f0519bc7e088f2.jpg"
+                                    alt="">
+                            </div>
+                            <div class="row">
+                                <header><a href="#">Ngôn Ngữ</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">C/C++</a></li>
+                                    <li><a href="#">Python</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    <li><a href="#">C#</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/LapTrinhWeb/webprograming.html">Lập trình Web</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">Javascrip</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/LapTrinhMobile/mobile.html">Lập trình Mobile</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Android (Java/Kotlin)</a></li>
+                                    <li><a href="#">iOS (Swift/Objective-C)</a></li>
+                                    <li><a href="#">Flutte/React Native</a></li>
+                                    <li><a href="#">UX/UI</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/TriTueNhanTao/trituenhantao.html">Trí tuệ nhân tạo</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Học máy và Học sâu</a></li>
+                                    <li><a href="#">Xử lý ngôn ngữ tự nhiên</a></li>
+                                    <li><a href="#">Thị giác máy tính</a></li>
+                                    <li><a href="#">Robotics</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header><a href="/KhoaHocDuLieu/khoahocdulieu.html">Khoa học dữ liệu</a></header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Ngôn ngữ R</a></li>
+                                    <li><a href="#">SQL,MySQL</a></li>
+                                    <li><a href="#">Khai phá dữ liệu</a></li>
+                                    <li><a href="#">Trực quan hóa dữ liệu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <ul>
+                    <li><a href="/DanhGia/danhgia.html">Đánh giá năng lực</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/CongCuHoTRo/congcuhotro.html">Công cụ hỗ trợ</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/LoginSignup/index.html">Đăng nhập</a></li>
+                </ul>
+                <li><a href="#" class="search-gg"><i class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------ -->
+
+
+    <!-- Section -->
+    <div class="bgr">
+        <div class="cnr">
+            <div class="cust">
+                <div class="sym">
+                    <div class="">
+                        <div class="flx">
+                            <a class="btnz" href="#">
+                                <span class="btnv">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="ai ai-ChatQuestion">
+                                        <path
+                                            d="M14 19c3.771 0 5.657 0 6.828-1.172C22 16.657 22 14.771 22 11c0-3.771 0-5.657-1.172-6.828C19.657 3 17.771 3 14 3h-4C6.229 3 4.343 3 3.172 4.172 2 5.343 2 7.229 2 11c0 3.771 0 5.657 1.172 6.828.653.654 1.528.943 2.828 1.07" />
+                                        <path
+                                            d="M10 8.484C10.5 7.494 11 7 12 7c1.246 0 2 .989 2 1.978s-.5 1.033-2 2.022v1m0 2.5v.5" />
+                                        <path
+                                            d="M14 19c-1.236 0-2.598.5-3.841 1.145-1.998 1.037-2.997 1.556-3.489 1.225-.492-.33-.399-1.355-.212-3.404L6.5 17.5" />
+                                    </svg>
+                                    New</span>
+                                <span>Xem những thông báo mới nhất</span><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="ai ai-ChevronRightSmall">
+                                    <path d="M9 6l6 6-6 6" />
+                                </svg></a>
+                            <h1 class="tit">
+                                <p class="sbom">Learn Mobile</p>
+                                <p class="ble">Programming.</p>
+                            </h1>
+                        </div>
+                        <div class="m1t">
+                            <button class="btnj">
+                                Đăng Nhập</button><button class="btnu">
+                                Đăng Ký
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="m6t">
+                    <p class="teb">
+                        Với sự phát triển phổ biến của điện thoại thông minh và các ứng dụng di động,
+                        lập trình mobile sẽ sớm trở thành một lĩnh vực quan trong tương lai.
+                    <div class="m2t">
+                        <div class="g8p">
+                            <div class="tcxt">
+                                <div class="rink">
+                                    <div class="flow_root">
+                                        <div
+                                            class="rof focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary">
+                                            Đánh giá
+                                        </div>
+                                        <p class="t4x">#K+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcxt">
+                                <div class="rink">
+                                    <div class="flow-root">
+                                        <div
+                                            class="rof focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary">
+                                            Thành viên
+                                        </div>
+                                        <p class="t4x">#K+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcxt">
+                                <div class="rink">
+                                    <div class="flow-root">
+                                        <div
+                                            class="rof focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary">
+                                            Khóa học
+                                        </div>
+                                        <p class="t4x">#+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mtspac">
+                        <span class="ra6t"><img class="asre" alt="User 1"
+                                src="https://i.pinimg.com/originals/e8/82/72/e8827292777dca5378d3c75899029883.jpg" /></span><span
+                            class="ra6t"><img class="asre" alt="User 2"
+                                src="https://i.pinimg.com/originals/02/f6/c2/02f6c2359382ca3c26c9aeb8366321ea.jpg" /></span><span
+                            class="ra6t"><img class="asre" alt="User 3"
+                                src="https://i.pinimg.com/originals/95/a4/ba/95a4ba5384d1cda52a8c43c1d52bc4a0.jpg" /></span><span
+                            class="ra6t"><img class="asre" alt="User 4"
+                                src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/983cc426075775.5604d9289e831.jpg" /></span>
+                        <img class="ra6t"
+                            src="https://i.pinimg.com/originals/a1/4c/93/a14c93706740ec06abae765b39b637a4.jpg" alt="5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------- -->
+    <!-- Kỹ năng  -->
+    <div class="skill-container">
+        <h1 class="skill-title">Sau Khi Hoàn Thành Khóa Học</h1>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>Ngôn ngữ lập trình</h3>
+                <p>Java, Kotlin</p>
+            </div>
+            <div class="skill-item">
+                <h3>Công cụ phát triển</h3>
+                <p>Android Studio, Xcode</p>
+            </div>
+            <div class="skill-item">
+                <h3>Frameworks và SDKs</h3>
+                <p>React Native</p>
+            </div>
+            <div class="skill-item">
+                <h3>UI/UX Design</h3>
+                <p>Adobe XD, Sketch hoặc Figma</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- -->
+    <!-- ------------ -->
+    <!-- [START] -->
+    <div id="headline">
+        <div class="conaf">
+            <header>
+                <h1>Mobile Web Development</h1>
+                <h2 class="left-column">Xây Dựng Trải Nhiệm Di Động</h2>
+            </header>
+            <div id="blurb">
+                <p>Trong thế giới ngày nay, di động không chỉ là một phần, mà là trung tâm của trải nghiệm trực tuyến.
+                    Khoá học này sẽ dạy bạn từng bước để xây dựng những ứng dụng web tập trung vào di động, từ việc
+                    lập kế hoạch và thiết kế, đến triển khai và tối ưu hóa hiệu suất.
+                    Không chỉ dừng lại ở Android và iOS, khoá học này còn sẽ hướng dẫn bạn cách làm cho ứng dụng của
+                    mình
+                    hoạt động trên nhiều nền tảng khác nhau, giúp bạn tiếp cận được một phạm vi người dùng rộng lớn.
+                    Nếu bạn đang muốn cập nhật kiến thức của mình và tạo ra những trải nghiệm web tuyệt vời trên mọi
+                    thiết bị,
+                    đừng bỏ lỡ khoá học này!
+                </p>
+
+            </div>
+        </div>
+        <form method="post" id="register" class="right-column">
+            <h2>Vui Lòng Để Lại Thông Tin Tại Đây!</h2>
+            <label for="name">Họ Và Tên</label>
+            <input type="text" name="name" id="name" placeholder="Nguyễn Văn A" required="">
+            <label for="email">Địa Chỉ Email</label>
+            <input type="email" name="email" id="email" placeholder="###@example.com" required="">
+            <label for="tel">Số điện Thoại</label>
+            <input type="tel" name="tel" id="tel" placeholder="(555) 555 5555" required="">
+            <input type="submit" value="Hoàn Tất">
+        </form>
+    </div>
+    <br>
+    </div>
+    </div>
+    <!-- [END] -->
+
+    <!-- section1 -->
+    <div class="eldgdbv56nt">
+        <div class="dhnbg44ggb">
+
+            <!-- Pricing Card 1 -->
+            <div class="elet">
+                <div class="gagaf">
+                </div>
+                <div class="p-8">
+                    <h2 class="af89d">Gói Cơ Bản <span class="small-note">(Dùng thử 3 tháng)</span></h2>
+                    <p class="esft">Dành cho người mới bắt đầu, <br> gói này cung cấp các bài giảng <br> căn bản về lập
+                        trình di động,<br> tiếp cận một cách dễ dàng.</p>
+                    <p class="efad"> 300.000 VNĐ</p>
+                    <ul class="elsasbg">
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Gồm bài giảng căn bản về lập <br> trình di động và các ngôn ngữ <br> lập trình phổ biến.
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            quyền truy cập vào một số tài<br> liệu học tập cơ bản và video <br> hướng dẫn.
+                        </li>
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Hỗ trợ cơ bản từ cộng đồng <br> hoặc diễn đàn trực tuyến.
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <button class="egaaggg">
+                        Đăng Ký
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pricing Card 2 -->
+            <div class="elet">
+                <div class="gagaf">
+                </div>
+                <div class="p-8">
+                    <h2 class="af89d">Gói Tiêu Chuẩn</h2>
+                    <p class="esft">Bao gồm các khóa học và dự <br> án thực hành với sự hỗ trợ từ <br> giáo viên và cung
+                        cấp chứng <br> chỉ hoàn thành.</p>
+                    <p class="efad">700.000 VNĐ</p>
+                    <ul class="elsasbg">
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Quyền truy cập vào một loạt <br> các khóa học nâng cao và <br> chuyên sâu về lập trình di
+                            động.
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Hỗ trợ từ giáo viên thông qua <br> các buổi hướng dẫn trực tuyến
+                        </li>
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Cung cấp các dự án thực hành <br> và phản hồi từ giáo viên để cải <br> thiện kỹ năng.
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <button class="egaaggg">
+                        Đăng Ký
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pricing Card 3 -->
+            <div class="elet">
+                <div class="gagaf">
+                </div>
+                <div class="p-8">
+                    <h2 class="af89d">Gói Nâng Cao</h2>
+                    <p class="esft">Đem đến các khóa học cao cấp <br> về lập trình di động, thiết kế ứng <br> dụng và hỗ
+                        trợ 24/7, với dự án liên <br> kết với doanh nghiệp.</p>
+                    </p>
+                    <p class="efad">1.600.000 VNĐ</p>
+                    <ul class="elsasbg">
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Nội dung khóa học theo nhu<br>cầu cụ thể của học viên.
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Phát triển ứng dụng di động <br> cho nền tảng cụ thể: <br> iOS hoặc Android.
+                        </li>
+                        <li class="asdnt">
+                            <svg class="dasf" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="ai ai-CircleCheck">
+                                <path d="M8 12.5l3 3 5-6" />
+                                <circle cx="12" cy="12" r="10" />
+                            </svg>
+                            Lập trình vào lĩnh vực cụ thể:<br> trò chơi, y tế, hoặc thương <br> mại điện tử.
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <button class="egaaggg">
+                        Đăng Ký
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------- -->
+    <footer class="footer">
+        <div class="contdgr">
+            <div class="rokw">
+                <div class="footer-col">
+                    <h4>TechEdu</h4>
+                    <ul>
+                        <li><a href="#">"Công nghệ thông tin là sự tiến bộ của mọi ngành nghề, mọi loại hình kinh doanh
+                                và mọi khía cạnh của
+                                cuộc sống." - Bill Gates.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Lịch học</h4>
+                    <ul>
+                        <li><a href="#">Trong tuần này</a></li>
+                        <li><a href="#">Trong tháng này</a></li>
+                        <li><a href="#">Lịch đã hết hạn</a></li>
+                        <li><a href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Các khóa học</h4>
+                    <ul>
+                        <li><a href="#">Ngôn ngữ</a></li>
+                        <li><a href="#">Lập trình Web</a></li>
+                        <li><a href="#">Lập trình Mobile</a></li>
+                        <li><a href="#">Trí tuệ nhân tạo</a></li>
+                        <li><a href="#">Khoa học dữ liệu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-map col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3725.23040774392!2d105.7706984!3d20.9833992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313453178cb9f0a9%3A0x9fafbe89642c9a27!2zVuG6oW4gUGjDumMgQnVpbGRpbmc!5e0!3m2!1svi!2s!4v1703352343184!5m2!1svi!2s"
+                        height="300" width="300" style="border:10px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="\javascripts\main.js"></script>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 TechEdu | Thiết kế bởi MacDuc</p>
+    </div>
+
+    <!-- chatbot -->
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="ai ai-ChatBubble">
+                <path
+                    d="M14 19c3.771 0 5.657 0 6.828-1.172C22 16.657 22 14.771 22 11c0-3.771 0-5.657-1.172-6.828C19.657 3 17.771 3 14 3h-4C6.229 3 4.343 3 3.172 4.172 2 5.343 2 7.229 2 11c0 3.771 0 5.657 1.172 6.828.653.654 1.528.943 2.828 1.07" />
+                <path
+                    d="M14 19c-1.236 0-2.598.5-3.841 1.145-1.998 1.037-2.997 1.556-3.489 1.225-.492-.33-.399-1.355-.212-3.404L6.5 17.5" />
+            </svg></span>
+        <span class="material-symbols-outlined"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="ai ai-CircleX">
+                <path d="M15 15L9 9m6 0l-6 6" />
+                <circle cx="12" cy="12" r="10" />
+            </svg></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <Span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1);">
+                        <path
+                            d="M21 10.975V8a2 2 0 0 0-2-2h-6V4.688c.305-.274.5-.668.5-1.11a1.5 1.5 0 0 0-3 0c0 .442.195.836.5 1.11V6H5a2 2 0 0 0-2 2v2.998l-.072.005A.999.999 0 0 0 2 12v2a1 1 0 0 0 1 1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a1 1 0 0 0 1-1v-1.938a1.004 1.004 0 0 0-.072-.455c-.202-.488-.635-.605-.928-.632zM7 12c0-1.104.672-2 1.5-2s1.5.896 1.5 2-.672 2-1.5 2S7 13.104 7 12zm8.998 6c-1.001-.003-7.997 0-7.998 0v-2s7.001-.002 8.002 0l-.004 2zm-.498-4c-.828 0-1.5-.896-1.5-2s.672-2 1.5-2 1.5.896 1.5 2-.672 2-1.5 2z">
+                        </path>
+                    </svg></Span>
+                <p>Xin Chào! 👋<br>Tôi có thể giúp gì cho bạn?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Nhắn tại đây..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><svg xmlns="http://www.w3.org/2000/svg" width="36"
+                    height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="ai ai-Send">
+                    <path
+                        d="M9.912 12H4L2.023 4.135A.662.662 0 0 1 2 3.995c-.022-.721.772-1.221 1.46-.891L22 12 3.46 20.896c-.68.327-1.464-.159-1.46-.867a.66.66 0 0 1 .033-.186L3.5 15" />
+                </svg></span>
+        </div>
+    </div>
+</body>
+
+</html>
